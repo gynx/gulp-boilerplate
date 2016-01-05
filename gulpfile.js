@@ -59,7 +59,7 @@ gulp.task('clean', function() {
 gulp.task('default', ['clean'], function() {
   gulp.start('css', 'js', 'images');
 });
-
+   
 // Watch
 gulp.task('watch', function() {
 
